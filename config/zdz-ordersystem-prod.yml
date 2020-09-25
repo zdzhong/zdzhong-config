@@ -1,0 +1,11 @@
+server:
+  port: 8102
+
+spring:
+  application:
+    name: zdz-ordersystem
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
