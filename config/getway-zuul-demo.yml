@@ -11,6 +11,5 @@ eureka:
       defaultZone: http://localhost:8761/eureka/
 
 zuul:
-  prefix: /abc
   routes:
     service-consumer-demo: /123/**
